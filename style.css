@@ -178,8 +178,12 @@ a.sidebar-link:hover {
   input::placeholder {
     font-size: 10px !important;
   }
+  .main {
+    padding-bottom: 0 !important;
+  }
 
   .container {
+    padding-bottom: 0 !important;
     margin-left: auto !important;
   }
 
