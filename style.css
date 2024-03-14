@@ -152,8 +152,8 @@ a.sidebar-link:hover {
   }
 
   svg {
-    width: 12px;
-    height: 12px;
+    width: 12px !important;
+    height: 12px !important;
   }
 
   input::placeholder {
