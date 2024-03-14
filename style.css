@@ -159,7 +159,11 @@ a.sidebar-link:hover {
   }
 
   input {
-    font-size: 12px !important;
+    font-size: 10px !important;
+  }
+
+  input[type='date'] {
+    font-size: 8px;
   }
 
   th img {
