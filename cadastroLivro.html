@@ -84,9 +84,18 @@
                     <label for="inputAutor" class="form-label">Autor</label>
                     <input type="text" class="form-control" id="inputAutor" placeholder="Digite o nome do autor">
                   </div>
-                  <div class="col">
+                  <div class="mb-3">
                     <label for="inputCategoria" class="form-label">Categoria</label>
-                    <input type="text" class="form-control" id="inputCategoria" placeholder="Digite a categoria do livro">
+                    <select class="form-select" id="inputCategoria">
+                      <option selected>Escolha uma categoria </option>
+                      <option value="1">Ficção</option>
+                      <option value="2">Não-ficção</option>
+                      <option value="3">Romance</option>
+                      <option value="4">Mistério</option>
+                      <option value="5">Biografia</option>
+                      <option value="6">História</option>
+                      <option value="7">Ciência</option>
+                    </select>
                   </div>
                 </div>
                 <div class="row mb-3">
@@ -99,18 +108,9 @@
                     <input type="text" class="form-control" id="inputEditora" placeholder="Digite o nome da editora">
                   </div>
                 </div>
-                <div class="mb-3">
-                  <label for="inputSetorLivro" class="form-label">Setor do Livro</label>
-                  <select class="form-select" id="inputSetorLivro">
-                    <option selected>Escolha um setor</option>
-                    <option value="1">Ficção</option>
-                    <option value="2">Não-ficção</option>
-                    <option value="3">Romance</option>
-                    <option value="4">Mistério</option>
-                    <option value="5">Biografia</option>
-                    <option value="6">História</option>
-                    <option value="7">Ciência</option>
-                  </select>
+                <div class="col mb-2">
+                  <label for="inputSetorLivro" class="form-label">Setor Livro</label>
+                  <input type="number" class="form-control" id="inputSetorLivro" placeholder="Digite o Setor do Livro">
                 </div>
                 <button type="submit" class="btn btn-primary">Cadastrar</button>
               </form>
@@ -122,4 +122,5 @@
     <script src="script.js"></script>
 
 </body>
+
 </html>
