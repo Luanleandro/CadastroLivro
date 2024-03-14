@@ -16,7 +16,6 @@ label,
 .table-wrapper {
   max-height: 300px;
   overflow-y: scroll;
-  overflow-x: scroll;
 }
 
 .shadow {
@@ -163,5 +162,10 @@ a.sidebar-link:hover {
 
   .container {
     margin-left: auto !important;
+  }
+
+  .table-wrapper {
+    max-width: 300px;
+    overflow-y: scroll;
   }
 }
