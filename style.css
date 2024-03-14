@@ -157,6 +157,11 @@ a.sidebar-link:hover {
     font-size: 10px !important;
   }
 
+  svg {
+    width: 12px;
+    height: 12px;
+  }
+
   input::placeholder {
     font-size: 10px !important;
   }
