@@ -143,6 +143,8 @@ a.sidebar-link:hover {
 
   .btn {
     font-size: 12px !important;
+    width: 25px;
+    height: 12px;
   }
 
   th,
