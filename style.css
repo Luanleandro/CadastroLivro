@@ -138,13 +138,14 @@ a.sidebar-link:hover {
 
 @media (max-width: 600px) {
   h1 {
+    font-size: 20px;
     text-align: center;
   }
 
   .btn {
     font-size: 12px !important;
-    width: 25px;
-    height: 12px;
+    width: 80px;
+    height: 36px;
   }
 
   th,
@@ -167,7 +168,7 @@ a.sidebar-link:hover {
   }
 
   select {
-    font-size: 12px !important;
+    font-size: 10px !important;
   }
 
   input::placeholder {
