@@ -142,7 +142,7 @@ a.sidebar-link:hover {
   }
 
   .btn {
-    font-size: 12px;
+    font-size: 12px !important;
   }
 
   th,
@@ -151,9 +151,17 @@ a.sidebar-link:hover {
     font-size: 10px !important;
   }
 
-  svg {
-    width: 12px !important;
-    height: 12px !important;
+  label {
+    font-size: 14px;
+  }
+
+  a > img {
+    width: 16px !important;
+    height: 16px !important;
+  }
+
+  select {
+    font-size: 12px !important;
   }
 
   input::placeholder {
