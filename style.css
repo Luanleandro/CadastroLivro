@@ -136,7 +136,7 @@ a.sidebar-link:hover {
   height: 40px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   h1 {
     text-align: center;
   }
@@ -152,10 +152,14 @@ a.sidebar-link:hover {
   }
 
   label {
-    font-size: 14px;
+    font-size: 12px !important;
   }
 
-  a > img {
+  input {
+    font-size: 12px !important;
+  }
+
+  th img {
     width: 12px !important;
     height: 12px !important;
   }
