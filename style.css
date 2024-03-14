@@ -40,12 +40,6 @@ label,
   background-color: #fafbfe;
 }
 
-@media (max-width: 600px) {
-  #sidebar {
-    height: 143vh !important;
-  }
-}
-
 #sidebar {
   width: 70px;
   min-width: 70px;
